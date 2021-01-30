@@ -10,6 +10,12 @@ public class Ball {
     private int capacity;
     private int bounceRate;
 
+    // Default Constructor - Helpful to not get errors in Inherited Class with no Constructor defined.
+    public Ball() {
+
+    }
+
+    // Main Constructor
     public Ball(String mColor, String mName, int mCapacity, int mBounceRate) {
         color = mColor;
         name = mName;
