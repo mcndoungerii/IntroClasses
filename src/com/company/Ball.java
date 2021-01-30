@@ -37,4 +37,38 @@ public class Ball {
     public void showName() {
         System.out.println(name);
     }
+
+    //Getters and Setters
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+
+    public int getBounceRate() {
+        return bounceRate;
+    }
+
+    public void setBounceRate(int bounceRate) {
+        this.bounceRate = bounceRate;
+    }
 }

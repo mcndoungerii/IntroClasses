@@ -7,7 +7,12 @@ public class Main {
 
     Ball myBall = new Ball("Blue","Ally",20,300);
 
-    myBall.showColor();
-    myBall.showName();
+    //accessing Setters
+    myBall.setName("Adidas");
+    myBall.setBounceRate(20);
+
+    //accessing Getters
+    System.out.println(myBall.getName());
+    System.out.println(myBall.getBounceRate());
     }
 }
