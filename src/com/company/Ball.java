@@ -23,6 +23,20 @@ public class Ball {
         bounceRate = mBounceRate;
     }
 
+    //Overloading Constructors
+
+
+    public Ball(String color, String name) {
+        this.color = color;
+        this.name = name;
+    }
+
+    public Ball(String color, String name, int capacity) {
+        this.color = color;
+        this.name = name;
+        this.capacity = capacity;
+    }
+
     //Behaviours
     public String bounce() {
 
