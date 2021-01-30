@@ -5,13 +5,22 @@ public class Ball {
     //All these below are the children of a class
 
     //Properties or Instance variables
-    public String color;
-    public String name;
-    public int bounceRate;
+    private String color;
+    private String name;
+    private int capacity;
+    private int bounceRate;
+
+    public Ball(String mColor, String mName, int mCapacity, int mBounceRate) {
+        color = mColor;
+        name = mName;
+        capacity = mCapacity;
+        bounceRate = mBounceRate;
+    }
 
     //Behaviours
-    public void bounce() {
-        System.out.println("Bouncing ...");
+    public String bounce() {
+
+        return "Bouncing ...";
     }
     public void inflates() {
         System.out.println("Inflating ...");
@@ -19,5 +28,13 @@ public class Ball {
 
     public void deflates() {
         System.out.println("Deflating ...");
+    }
+
+    public void showColor() {
+        System.out.println(color);
+    }
+
+    public void showName() {
+        System.out.println(name);
     }
 }
