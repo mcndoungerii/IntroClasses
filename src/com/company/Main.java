@@ -11,7 +11,9 @@ public class Main {
         stringBuilder.append(" is good");
         stringBuilder.append(" when you are happy");
 
-        System.out.println(stringBuilder);
+        stringBuilder.delete(1,2);
+
+        System.out.println(stringBuilder.capacity());
     }
 
 }
