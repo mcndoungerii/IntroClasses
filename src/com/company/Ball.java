@@ -38,9 +38,9 @@ public class Ball {
     }
 
     //Behaviours
-    public String bounce() {
+    public void bounce() {
 
-        return "Bouncing ...";
+        System.out.println("Ball is bouncing...");
     }
     public void inflates() {
         System.out.println("Inflating ...");
